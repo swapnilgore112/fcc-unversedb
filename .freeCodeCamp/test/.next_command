@@ -25,3 +25,33 @@ trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 psql --username=freecodecamp --dbname=postgres
 psql --username=freecodecamp --dbname=postgres
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+psql -U freecodecamp -d universe
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+psql -U postgres < universe.sql
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+__vsc_prompt_cmd_original
+psql -U freecodecamp < universe.sql
+psql -U freecodecamp -d universe.sql
+psql -U freecodecamp -d universe
+__vsc_prompt_cmd_original
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+cd
+cd
+cd /path/to/your/universe-dump-folder
+help
+\ls
+\c projects
+\c project
+pg_dump -cC --inserts -U freecodecamp universe > universe.sql
+git int
+git init
+\d
+\ld
+\c project
+./project
+./project.sh
+/workspace/project/universe.sql
+\c workspace
